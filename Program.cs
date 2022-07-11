@@ -1,5 +1,7 @@
 ﻿using System.Text.Json;
 
+using ValidationClass;
+
 class TheMovieApi
 {
     private static string APIKey = "7885b36c69c588986eec43c930cd9b7d";
@@ -19,7 +21,9 @@ class TheMovieApi
             Console.WriteLine("========================");
             Console.WriteLine("");
 
-            GetMovieListGenre().Wait();
+            if (GetMenuOption() == "1") {
+                GetMovieListGenre().Wait();
+            }
         }
     }
 
@@ -49,6 +53,34 @@ class TheMovieApi
             Console.WriteLine("Message :{0} ",e.Message);
             authorizedSession = false;
         }
+    }
+
+    public static string GetMenuOption() {
+        var keyOption = "0";
+        
+        Console.WriteLine("CHOOSE A NUMBER TO NAVIGATE THROUGH MENU");
+        Console.WriteLine("========================");
+        Console.WriteLine("");
+
+        Console.WriteLine("1- Get MOVIE LIST Genre");
+        Console.WriteLine("========================");
+        Console.WriteLine("");
+        Console.Write("Option: ");
+        keyOption = Console.ReadLine();
+
+        while (!Validation.ValidatesMenuInputNumber(1, 1, keyOption)) {
+            Console.WriteLine("");
+            Console.WriteLine("Please choose a valid option");
+            Console.WriteLine("");
+            Console.WriteLine("Type 1 to get MOVIE LIST Genre");
+            Console.WriteLine("========================");
+            Console.WriteLine("");
+            Console.Write("Option: ");
+            keyOption = Console.ReadLine();
+            Console.WriteLine("========================");
+        }
+
+        return keyOption;
     }
 
     public static async Task GetMovieListGenre() {

@@ -1,0 +1,15 @@
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/bin/Debug/net6.0/TheMoveApi
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/bin/Debug/net6.0/TheMoveApi.deps.json
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/bin/Debug/net6.0/TheMoveApi.runtimeconfig.json
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/bin/Debug/net6.0/TheMoveApi.dll
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/bin/Debug/net6.0/TheMoveApi.pdb
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.csproj.AssemblyReference.cache
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.AssemblyInfoInputs.cache
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.AssemblyInfo.cs
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.csproj.CoreCompileInputs.cache
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.dll
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/refint/TheMoveApi.dll
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.pdb
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/TheMoveApi.genruntimeconfig.cache
+/Users/mozartgil/Dropbox/Dev/2022/TheMoveApi/obj/Debug/net6.0/ref/TheMoveApi.dll
